@@ -1,7 +1,36 @@
 .App {
+text-align: center;
+}
+
+.Inputs{
   text-align: center;
 }
 
-.ip{
+.Inputs input{
+  padding: 10px;
+  outline: none;
+  border: 0;
+  border-radius: 20px;
+  width: 350px;
+  font-weight: bold;
+  color: black;
+  background-color:  lightgray;
+  display: block; 
+  margin: 10px auto;
+}
+label{
   display: block;
+  margin: 10px;
+}
+button{
+  outline: none;
+  border: 0;
+  background-color:  lightgray;
+  padding: 10px;
+  border-radius: 20px;
+  width: 8%;
+  cursor:pointer;
+}
+button:hover{
+  background-color: darkgray;
 }
