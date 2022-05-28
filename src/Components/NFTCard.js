@@ -19,7 +19,7 @@ function NFTCard({nft}) {
             </div>
 
             <div className="flex-grow mt-2">
-                <p className="text-gray-600">{nft.description}</p>
+                <p className="text-gray-600">{nft.description.substr(0,100)}</p>
             </div>
         </div>
 

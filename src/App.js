@@ -55,7 +55,8 @@ function App() {
   }
 
   return (
-    <div className="App flex flex-col items-center justify-center py-8 gap-y-3">
+    //flex flex-col items-center justify-center py-8 gap-y-3
+    <div className="App ">
       <Header/>
       <div class="Inputs"> 
         <input onChange={(e)=>{setWallet(e.target.value)}} value={wallet} placeholder='Wallet Address'   ></input>
