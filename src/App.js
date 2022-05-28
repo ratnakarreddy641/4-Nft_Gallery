@@ -10,7 +10,7 @@ function App() {
   const[collection,setCollection]=useState("");
   const[NFTs,setNFTs]=useState([]);
   const[checkbox,isBoxChecked]=useState(false);
-  let[startItems,setStartItems] = useState(0);
+  let[startItems,setStartItems]=useState(0);
 
   const fetchNFTs = async()=>{
     let nfts;
