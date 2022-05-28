@@ -22,7 +22,7 @@ label{
   display: block;
   margin: 10px;
 }
-button{
+.Go{
   outline: none;
   border: 0;
   color: white;
@@ -34,4 +34,15 @@ button{
 }
 button:hover{
   background-color: #2196F3;
+}
+.BottomBtns{
+  outline: none;
+  border: 0;
+  color: white;
+  background-color:  #29B6F6;
+  padding: 10px;
+  margin:10px;
+  border-radius: 20px;
+  width: 140px;
+  cursor:pointer;
 }
